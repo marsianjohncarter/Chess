@@ -1,0 +1,32 @@
+<html>
+    <head>
+        {{> head}}
+    </head>
+    <body>
+        <div id="chessboard-background" class="container overflow-auto text-center rounded-4 bg-dark text-white text-emphasis-dark position-absolute top-50 start-50 translate-middle">
+            <div id="gameboard" class="text-center m-2 d-flex justify-content-center">
+                <div class="body">
+                <div id="myBoard"></div>
+                <div class="m-1 container">
+                    <label>Status:</label>
+                    <div id="status"></div>
+                </div>
+                <div class="m-1 container">
+                    <div id="scroll-pgn" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2 text-dark" tabindex="0">
+                        <h4 id="scrollspyHeading1">PGN:</h4>
+                        <p><div id="pgn"></div></p>
+                      </div>
+                </div>
+                <div id="liveAlertPlaceholder"></div>
+
+                </div>
+            </div>
+        </div>
+        <script>
+            let playerColor = '{{color}}';
+            console.log('Playing as ' + playerColor);
+        </script>
+        <script src="/public/js/index.js"></script>
+
+    </body>
+</html>

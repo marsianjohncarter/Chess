@@ -1,0 +1,56 @@
+<html>
+    <head>
+        {{> head}}
+    </head>
+    <body>
+        <div id="liveAlertPlaceholder"></div>
+        <div id="container" class="ms-1 me-1 container rounded-4 bg-dark text-white text-emphasis-dark position-absolute top-50 start-50 translate-middle">
+            <div class="ps-5 pe-5 main-container container position-absolute top-50 start-50 translate-middle">
+
+                <h2>Game code</h2>
+                <input class="form-control" type="text" id="codeInput">
+
+                <button class="m-3 w-25 btn btn-outline-light" id="createGame">Create game</button>
+                <button class="m-3 w-25 btn btn-outline-light" id="joinGame">Join game</button>
+                <div style="color: red" id="errorMessage"></div>
+
+            </div>
+        </div>
+        <script>
+            const codeinput = document.querySelector('#codeInput');
+            const creategame = document.querySelector('#createGame');
+            const joingame = document.querySelector('#joinGame');
+            const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+                    const appendAlert = (title, message, type) => {
+                    const wrapper = document.createElement('div')
+                    wrapper.innerHTML = [
+                    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                        `<strong>${title}</strong> <div>${message}</div>`,
+                        ' <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                        '</div>'
+                    ].join('')
+
+                    alertPlaceholder.append(wrapper)
+                    }
+            creategame.addEventListener('click', () => {
+                if (codeinput.value.trim() === '' || codeinput.value.length < 10) {
+                    appendAlert('Warning!', 'You have inserted in an invalid code. Please make it at least 10 characters long', 'warning');
+                } else {
+                    window.location.replace('/white?code=' + codeinput.value);
+                }
+            });
+            joingame.addEventListener('click', () => {
+                if (codeinput.value.trim() === '' || codeinput.value.length < 10) {
+                    appendAlert('Warning!', 'You have inserted in an invalid code. Please make it at least 10 characters long', 'warning');
+                } else {
+                    window.location.replace('/black?code=' + codeinput.value);
+                }
+            });
+
+            var urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('error') == 'invalidCode') {
+                $('#errorMessage').text('Invalid invite code');
+            }
+        </script>
+    </body>
+</html>

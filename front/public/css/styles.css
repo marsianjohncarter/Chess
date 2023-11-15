@@ -1,0 +1,70 @@
+/* body {
+    margin-top: 15%;
+    text-align: center;
+     margin-left: 31.2565%;
+    margin-right: 31.2565%; 
+    font-family: 'Lucida', monospace;
+    font-weight: 700;
+} */
+/* #my-board {
+    
+}
+
+#codeInput {
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin: 20px;
+    border: none;
+    box-shadow: 0 0 5px 5px #888;
+}
+
+#codeInput:focus {
+    outline: none;
+} */
+  
+/* button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    border-radius: 10px;
+    margin: 5px;
+} */
+
+#myBoard {
+    width: 700px;
+}
+
+
+
+.main-container {
+    text-align: center;
+}
+
+#container {
+    height: 30%;
+}
+
+body {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#gameboard {
+    text-align: center;
+}
+
+#chessboard-background {
+    height: 95%;
+    /* width:auto; */
+}
+
+#scroll-pgn {
+    max-width: 700px;
+}
+
+#liveAlertPlaceholder {
+    margin: 20px;
+}
