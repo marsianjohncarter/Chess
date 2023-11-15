@@ -1,5 +1,7 @@
 # Chess
 This is an upgraded version of [almatrass/chess-site](https://github.com/almatrass/chess-site)
-This version contains better CSS styling, JS game code checking mechanism, and pretty good mobile compability.
+This version contains better CSS styling, JS game code checking mechanism.
 
-> This project has been tested on **Google Chrome**, **Edge**, **FireFox**, **Chromium**, and **Opera** web browsers.
+ **THIS PROJECT DOES NOT WORK ON MOBILE**
+
+> *Has been tested on **Google Chrome**, **Edge**, **FireFox**, **Chromium**, and **Opera** web browsers.*
