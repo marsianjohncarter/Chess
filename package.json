@@ -15,5 +15,8 @@
     "http": "^0.0.1-security",
     "path": "^0.12.7",
     "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "vite-plugin-pwa": "^0.16.7"
   }
 }
