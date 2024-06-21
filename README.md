@@ -37,3 +37,4 @@ You will then be able to play a chess game with whoever connects with you onto y
 |http               | ^0.0.1-security|
 |path               | ^0.12.7        |
 |socket.io          | ^4.7.2         |
+
