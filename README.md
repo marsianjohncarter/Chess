@@ -39,7 +39,7 @@ You will then be able to play a chess game with whoever connects with you onto y
 |socket.io          | ^4.7.2         |
 
 
-### Instrctions (building and deploying on local network):
+### Instructions (building and deploying on local network):
 
 To install dependencies:
 
