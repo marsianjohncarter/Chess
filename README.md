@@ -47,7 +47,7 @@ To install dependencies:
 npm i
 ```
 
-To start:
+To start the server:
 
 ```
 node ./server/server.js
