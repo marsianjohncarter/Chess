@@ -2,7 +2,7 @@
 This is an upgraded version of [almatrass/chess-site](https://github.com/almatrass/chess-site)
 This version contains better CSS styling, JS game code checking mechanism.
 
-**This project does not work on mobile for drag and drop mechanism has not been implemented**
+**This project does not work on mobile**
 
 > *Has been tested on **Google Chrome**, **Edge**, **FireFox**, **Chromium**, and **Opera** web browsers.*
 
