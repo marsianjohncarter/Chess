@@ -24,6 +24,7 @@ Join a game by typing in the random game code that you entered earlier and then 
 
 
 You will then be able to play a chess game with whoever connects with you onto your game.
+
 <img src="https://github.com/marsianjohncarter/Chess/assets/116607327/bd160133-6e9b-4b57-98b3-2b7783ae8bb1" width="500" height="550">
 <hr>
 
