@@ -8,7 +8,7 @@ This version contains better CSS styling, JS game code checking mechanism.
 
 <hr>
 
-### Instructions (of use): 
+### Instructions of use: 
 
 > Live website: https://chess-website-completed.onrender.com/
 > 
